@@ -1,0 +1,20 @@
+<ion-list>
+  <ion-item-sliding *ngFor="let alumno of alumnos">
+   <ion-item>
+    <ion-label>{{alumno}}</ion-label>
+   </ion-item>
+
+   <ion-item-options>
+    <ion-item-option>
+      favorito
+    </ion-item-option>
+    <ion-item-option color="danger">
+      like
+    </ion-item-option>
+   
+   </ion-item-options>
+   <ion-item-options side="start">
+    <ion-item-option>archivar</ion-item-option>
+  </ion-item-options>
+  </ion-item-sliding>
+</ion-list>
